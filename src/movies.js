@@ -19,7 +19,7 @@ function howManyMovies(movies) {
   const dramaSpilberg  = movies.filter((dramaSpil) => {
     return dramaSpil.director === 'Steven Spielberg' && dramaSpil.genre.includes('Drama');
   
-  })
+  });
 
   return dramaSpilberg.length;
 }
@@ -27,8 +27,10 @@ function howManyMovies(movies) {
 // Iteration 3: All scores average - Get the average of all scores with 2 decimals
 function scoresAverage() {}
 
+
 // Iteration 4: Drama movies - Get the average of Drama Movies
-function dramaMoviesScore() {}
+function dramaMoviesScore() {
+}
 
 // Iteration 5: Ordering by year - Order by year, ascending (in growing order)
 function orderByYear() {}
